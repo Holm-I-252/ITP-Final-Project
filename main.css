@@ -1,0 +1,122 @@
+body, h1, h2, h3, div, input, #submit {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+}
+h1 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+#heading {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 0px;
+    padding: 10px;
+    padding-bottom: 20px;
+    width: auto;
+    height: 125px;
+    background-color: white;
+}
+#contentArea {
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 700px;
+    width: auto;
+    background-color: lightgray;
+    overflow: auto;
+}
+#inputArea {
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 75px;
+    width: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+}
+#userName {
+    height: 30px;
+    width: 150px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+#comment {
+    height: 30px;
+    width: 300px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+#submit {
+    height: 30px;
+    width: 100px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+#userComment {
+    background-color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between
+}
+#edit {
+    height: 25px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border: none;
+    background-color: white;
+    color: lightskyblue;
+}
+#delete {
+    height: 25px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border: none;
+    background-color: white;
+    color: lightskyblue;
+}
+   
+#name {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#commentContent {
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+#editInput {
+    margin-right: 10px;
+}
+#info {
+    display: inline;
+}
+#commentButtons {
+    display: flex;
+
+}
+#editInput {
+    border-width: 2px;
+    border-color: black;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
